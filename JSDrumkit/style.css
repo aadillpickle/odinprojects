@@ -1,7 +1,9 @@
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background-image: url("lesgarcones.jpg");
   background-size: cover;
+  width: 100%;
+  height: auto; 
 }
 
 body,html {
@@ -48,10 +50,4 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
-}
-
-body {
-  background-image: url("lesgarcones.jpg");
-  background-size: cover;
-
 }

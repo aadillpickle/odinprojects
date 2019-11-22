@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="keys">
+    <button data-key="65" id = "button1" class="key">
+      <kbd>A</kbd>
+      <span class="sound">clap</span>
+    </button>
+    <button data-key="83" id = "button2" class="key">
+      <kbd>S</kbd>
+      <span class="sound">hihat</span>
+    </button>
+    <button data-key="68" id = "button3" class="key">
+      <kbd>D</kbd>
+      <span class="sound">kick</span>
+    </button>
+    <button data-key="70" id = "button4" class="key">
+      <kbd>F</kbd>
+      <span class="sound">openhat</span>
+    </button>
+    <button data-key="71" id = "button5" class="key">
+      <kbd>G</kbd>
+      <span class="sound">boom</span>
+      </button>
+    </button>
+    <button data-key="72" id = "button6" class="key">
+      <kbd>H</kbd>
+      <span class="sound">ride</span>
+    </button>
+    <button data-key="74" id = "button7" class="key">
+      <kbd>J</kbd>
+      <span class="sound">snare</span>
+    </button>
+    <button data-key="75" id = "button8" class="key">
+      <kbd>K</kbd>
+      <span class="sound">tom</span>
+    </button>
+    <button data-key="76" id = "button9" class="key">
+      <kbd>L</kbd>
+      <span class="sound">tink</span>
+    </button>
+
+    <audio data-key="65" id ="sound1" src="sounds/clap.wav" preload="auto"></audio>
+    <audio data-key="83" id ="sound2" src="sounds/hihat.wav"></audio>
+    <audio data-key="68" id ="sound3" src="sounds/kick.wav"></audio>
+    <audio data-key="70" id ="sound4" src="sounds/openhat.wav"></audio>
+    <audio data-key="71" id ="sound5" src="sounds/boom.wav"></audio>
+    <audio data-key="72" id ="sound6" src="sounds/ride.wav"></audio>
+    <audio data-key="74" id ="sound7" src="sounds/snare.wav"></audio>
+    <audio data-key="75" id ="sound8" src="sounds/tom.wav"></audio>
+    <audio data-key="76" id ="sound9" src="sounds/tink.wav"></audio>
+</div>
+<script src = drumkit.js></script>
+
+</body>
+</html>
