@@ -1,0 +1,14 @@
+button {
+    padding: 15px;
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+}
+.display {
+    border: 2px solid;
+    text-align:right;
+}
+.container {
+    padding: 20px;
+    border: 1px solid;
+}
