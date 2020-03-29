@@ -1,0 +1,22 @@
+.container{
+    display: grid;
+    text-align: center;
+    justify-content: space-evenly;
+    max-width: 960px;
+    max-height: 960px;
+}
+
+.container div::before {
+    content: "";
+    padding-bottom: 100%;
+    display: inline-block;
+  }
+
+.column {
+    height: auto;
+    width: auto;
+}
+
+.clear {
+    z-index: -1;
+}
